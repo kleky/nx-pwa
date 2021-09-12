@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: git fetch --no-tags --prune --depth=1 origin master
+      - run: git fetch --no-tags --prune --depth=1 origin main
       - run: yarn install
       - run: yarn nx run-many --target=test --all
       - run: yarn nx run-many --target=lint --all
