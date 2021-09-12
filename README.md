@@ -1,6 +1,11 @@
-## notes
+# notes
 
 https://github.com/marketplace/actions/nrwl-nx
+
+10x CI - https://medium.com/emoteev-blog/10x-faster-ci-with-nx-and-github-actions-9a51fc4e82a6
+
+- Github action setup to build all apps 
+- next: provision then deploy
 
 # NxPwa
 
