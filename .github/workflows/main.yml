@@ -19,7 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm install
+      - run: git fetch --no-tags --prune --depth=1 origin master
+      - run: yarn install
       - run: yarn nx run-many --target=test --all
       - run: yarn nx run-many --target=lint --all
       - run: yarn nx run-many --target=build --all --prod
