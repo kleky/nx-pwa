@@ -20,6 +20,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: npm install
-      - run: nx run-many --target=test --all
-      - run: nx run-many --target=lint --all
-      - run: nx run-many --target=build --all --prod
+      - run: yarn nx run-many --target=test --all
+      - run: yarn nx run-many --target=lint --all
+      - run: yarn nx run-many --target=build --all --prod
