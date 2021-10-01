@@ -1,5 +1,7 @@
 # notes
 
+https://www.netlify.com/blog/2020/04/21/deploying-nx-monorepos-to-netlify/
+
 https://github.com/marketplace/actions/nrwl-nx
 
 10x CI - https://medium.com/emoteev-blog/10x-faster-ci-with-nx-and-github-actions-9a51fc4e82a6
@@ -45,6 +47,16 @@ Below are our core plugins:
   - `ng add @nrwl/node`
 
 There are also many [community plugins](https://nx.dev/community) you could add.
+## Useful commands
+
+Create a feature branch `git checkout -b feature/hello-world`
+
+Generate a set of components using nx generate + schematics
+`nx g <schematics>`
+
+Implement, test, serve (end 2 end test via browser)
+`nx test api` (test api)
+`nx serve api` (run api locally)
 
 ## Generate an application
 
